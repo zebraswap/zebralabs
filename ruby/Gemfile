@@ -15,7 +15,7 @@ gem 'sass-rails'
 gem 'uglifier'
 gem 'coffee-rails'
 gem 'jquery-rails'
-gem 'sidekiq-unique-jobs', '>=8.0.0', '<8.0.7', require: true
+gem 'sidekiq-unique-jobs', '8.0.7', require: true
 # Pin Puma to a recent-ish version that supports OpenSSL, which is
 # what the CircleCI environment has.
 gem 'puma', '~> 5.5'
